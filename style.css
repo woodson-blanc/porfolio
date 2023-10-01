@@ -1,0 +1,235 @@
+body{
+    text-align: center;
+    color: #F9F3CC;
+}
+.container-fluid{
+    min-height: 100vh;
+   padding: 0;
+   overflow: hidden;
+
+}
+.wrapper{
+    background-color: black;
+}
+.desk{
+    width: 100%;
+    height: 25rem;
+    opacity: 30%;
+}
+
+
+.rowname{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.b-letter{
+    color: #D7E5CA;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 7%;
+}
+.w-letter{
+    color: #8EACCD;
+    font-family: 'Dancing Script', cursive;
+}
+.w-desing{
+    color: black;
+    font-family: 'Sacramento',cursive;
+}
+.space {
+    margin-left: 5px; /* Adjust the margin as needed */
+}
+h4{
+    color: gray;
+}
+.row-logo-container{
+    position: relative;
+   top: 100px;
+   margin-bottom: 100px;
+    
+}
+.rowlogo {
+    position: absolute;
+    border: 5px solid white;
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Move the logo to the center */
+    bottom: 0%;
+    border-radius: 50%;
+    background-color: #D2E0FB;
+    background-size: cover;
+    background-image:url("./img/profile.png");
+    /* background-position: center center; */
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+.section-two{
+   
+    margin-top: 10%
+}
+.about-text,.myskills-text{
+    font-size: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Sacramento', cursive;
+}
+.myskills-text{
+    color: white;
+    margin: 0;
+}
+.personal-text{
+    color: black;
+    margin: 0;
+    text-transform: uppercase;
+}
+.color-highlight{
+    color: #8EACCD;
+    
+   
+}
+.row-info{
+    margin-bottom: 25px;
+}
+p{
+    color: black;
+    text-align: justify;
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.info-icon{
+    color: #8EACCD;
+   display: inline-block;
+   margin-top: 10px;
+   text-align: center;
+  
+  
+}
+.fa-location-arrow,.fa-star ,.fa-flag{
+  
+    margin: 0;
+    font-size: 18px;
+   
+    
+}
+.icon{
+    margin: 0 auto;
+    border: 3px solid #8EACCD;
+    width: 3rem;
+    height: auto;
+    border-radius: 50%;
+   
+   
+}
+h3{
+    color: black;
+    margin: 2px;
+
+}
+.skill-section{
+   position: relative;
+}
+.myskills{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+}
+.desc-skill{
+    color: white;
+    text-transform: uppercase;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+table{
+    margin: 10px auto;
+}
+td{
+    padding: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.enire-carier{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.justify{
+    text-align: justify;
+}
+.first-Education,.seconde-education{
+    margin-bottom: 10%;
+    border-right: 1px solid black;
+}
+.header-title-carrier,.header-title-work{
+    color: #8EACCD;
+    border: 1px solid #8EACCD;
+    margin: 10% 0px;
+    text-align: center;
+
+}
+.tex-des-carrier{
+    margin-top: 50%;
+}
+.header-title-carrier{
+   
+    width: 50%;
+    text-align: center;
+   
+}
+.header-title-work{
+    width: 80%;
+}
+.month-title{
+    font-size: 1rem;
+    font-family: 'Montserrat-bold';
+    
+}
+.school-name{
+    font-size: 1.3rem;
+}
+.year-text{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) { 
+   .header-title-carrier,.header-title-work{
+    margin: 5% auto;
+
+   }
+   .header-title-work{
+    width: 40%;
+   }
+
+   .first-Education,.seconde-education{
+    margin-bottom: 0%;
+    border-right: 1px solid black;
+}
+.tex-des-carrier{
+    margin-top: 10%;
+    width: 100%;
+}
+.tex-des-carrier>p{
+   
+    width: 100%;
+}
+
+}
