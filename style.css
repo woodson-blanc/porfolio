@@ -1,6 +1,9 @@
+
 body{
     text-align: center;
     color: #F9F3CC;
+    max-width:100rem;
+    margin: 0 auto;
 }
 .container-fluid{
     min-height: 100vh;
@@ -20,16 +23,19 @@ body{
 
 .rowname{
     position: absolute;
-    top: 10%;
+    top: 80px;
     left: 0;
     right: 0;
 }
 h1{
-    color: white;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     
     
+}
+.white-color{
+    color: white;
+
 }
 
 .b-letter{
@@ -40,19 +46,21 @@ h1{
     top: 7%;
 }
 .w-letter{
-    color: #8EACCD;
     font-family: 'Dancing Script', cursive;
 }
-.w-desing{
+.black-color{
     color: black;
+
+}
+.w-desing{
+    margin-top:20px;
+    font-size: 30px;
     font-family: 'Sacramento',cursive;
 }
 .space {
     margin-left: 5px; /* Adjust the margin as needed */
 }
-h4{
-    color: gray;
-}
+
 .row-logo-container{
     position: relative;
    top: 100px;
@@ -75,25 +83,22 @@ h4{
     width: 200px;
     height: 200px;
 }
-.section-two{
-   
-    margin-top: 10%
+.section-two h4{
+   font-size: 24px;
 }
+
 .about-text,.myskills-text{
     font-size: 100%;
-    color: black;
     text-transform: uppercase;
     font-family: 'Sacramento', cursive;
 }
-.myskills-text{
-    color: white;
-    margin: 0;
-}
+
 .personal-text{
+    font-size: 30px;
     color: black;
-    margin: 0;
     text-transform: uppercase;
 }
+
 .color-highlight{
     color: #8EACCD;
     
@@ -104,27 +109,19 @@ h4{
 }
 p{
     color: black;
-    text-align: justify;
-    display: inline-block;
     width: 70%;
     margin: 0 auto;
 }
-
+p,.justify{
+    text-align: justify;
+}
 
 .info-icon{
-    color: #8EACCD;
-   display: inline-block;
    margin-top: 10px;
-   text-align: center;
-  
   
 }
-.fa-location-arrow,.fa-star ,.fa-flag{
-  
-    margin: 0;
-    font-size: 18px;
-   
-    
+.adress p{
+    text-align: center;
 }
 .icon{
     margin: 0 auto;
@@ -134,11 +131,6 @@ p{
     border-radius: 50%;
    
    
-}
-h3{
-    color: black;
-    margin: 2px;
-
 }
 .skill-section{
    position: relative;
@@ -150,7 +142,6 @@ h3{
     top: 25%;
 }
 .desc-skill{
-    color: white;
     text-transform: uppercase;
 }
 a{
@@ -171,15 +162,11 @@ td{
     margin: 0 auto;
     
 }
-.justify{
-    text-align: justify;
-}
 .first-Education,.seconde-education{
     margin-bottom: 10%;
     border-right: 1px solid black;
 }
 .header-title-carrier,.header-title-work{
-    color: #8EACCD;
     border: 1px solid #8EACCD;
     margin: 10% 0px;
     text-align: center;
@@ -187,12 +174,11 @@ td{
 }
 .tex-des-carrier{
     margin-top: 50%;
+
+    
 }
 .header-title-carrier{
-   
-    width: 50%;
-    text-align: center;
-   
+   width: 50%;
 }
 .header-title-work{
     width: 80%;
@@ -210,22 +196,25 @@ td{
     font-weight: 400;
 }
 
+
+
+
 @media (max-width: 992px) { 
    .header-title-carrier,.header-title-work{
     margin: 5% auto;
 
    }
    .header-title-work{
-    width: 40%;
+    width: 50%;
    }
 
    .first-Education,.seconde-education{
-    margin-bottom: 0%;
     border-right: 1px solid black;
+    padding: 0;
 }
 .tex-des-carrier{
-    margin-top: 10%;
     width: 100%;
+    margin: 0;
 }
 .tex-des-carrier>p{
    
